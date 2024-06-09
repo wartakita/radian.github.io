@@ -8,3 +8,8 @@
         if (!results[2]) return '';
         return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
+
+    // Function to encode string to base64
+    function base64Encode(str) {
+        return btoa(str);
+    }
